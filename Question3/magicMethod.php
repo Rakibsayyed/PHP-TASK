@@ -1,3 +1,4 @@
+/* implement 1 example of each Magic method in php */
 <?php
 
 class Foo
