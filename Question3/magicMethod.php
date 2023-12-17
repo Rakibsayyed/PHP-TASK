@@ -96,8 +96,4 @@ $serialized = serialize($rakibInstance);
 $unserialized = unserialize($serialized);
 
 $clonedInstance = clone $rakibInstance;
-
-$exported = var_export($rakibInstance, true);
-eval('$exportedInstance = ' . $exported . ';');
-
 ?>
